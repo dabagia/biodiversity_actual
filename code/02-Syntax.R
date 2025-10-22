@@ -10,9 +10,10 @@ y
 
 vec <- c(6, 1, 3, 6, 10, 5)
 df <- data.frame(
-  name = c("John", "Paul", "George", "Ringo"),
+  name = c("John", "Paul", "George", "Ringo"), # these are Beatles --> cool
   birth = c(1940, 1942, 1943, 1940), 
-  instrument = c("guitar", "bass", "guitar", "drums")
+  instrument = c("guitar", "bass", "guitar", "drums"),
+  lyrics = c("strawberry", "fields", "forever")
 )
 
 df[2,3]
